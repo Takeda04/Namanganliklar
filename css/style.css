@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding: 52px 0;
+    height: 230px;
+    background-color: #F6F6F9;
+    ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.money-table {
+    display: flex;
+    column-gap: 30px;
+}
+
+.text-money {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(122, 122, 122, 1)
+}
+
+.icon_money {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #285193;
+}
+
+.bi_telegram {
+    color: #fff;
+}
+
+.btn_text {
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.header_btn {
+    border: 1px solid #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+
+    display: flex;
+    width: 170px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    gap: 10px;
+}
+
+/* Pages style */
+.container_list {
+    height: 50px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.container_logo {
+    width: 306px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.link_items {
+    padding: 15px 28px;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.list_items {
+    align-items: center;
+    justify-content: center;
+}
+
+.link_items_list {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.a_btn {
+    color: #515151;
+    text-decoration: none;
+}
+
+.nrg_banner {
+    margin-top: 30px;
+}
+
+/* COVID BOX */
+
+.covid_box {
+    margin-top: 30px;
+    width: 1200px;
+    height: 133px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.covid_part {
+    display: flex;
+    border-right: 2px solid #EB5569;
+}
+
+.covid_part_end {
+    display: flex;
+}
+
+.covid_icon {
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.hazard_text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #DB0000;
+}
+
+.healthy_text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+
+    color: #05B135;
+}
+
+.died_text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.covid_box_text {
+    width: 232px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.covid_index {
+    margin-right: 20px;
+}
+
+
+/* Cards information */
+.information_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_card {
+    width: 390px;
+    margin-top: 30px;
+}
+
+.info_text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #202020;
+    margin-top: 10px;
+}
+
+.info_time {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #6B6D97;
+    margin-top: 10px;
+}
+
+/* Bildirishnome page */
+
+
+.bildirishnoma {
+    margin-top: 30px;
+    height: 80px;
+    background: rgba(239, 186, 84, 0.18);
+    border-radius: 5px;
+    display: flex;
+}
+
+.qongiroq {
+    margin-left: 35px;
+    margin-top: 27px;
+}
+
+.bildirishnoma_text {
+    margin-left: 50px;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.bildirishnoma_btn {
+    cursor: pointer;
+    border: 1px solid #FE5C28;
+    width: 264px;
+    margin-left: 200px;
+    margin-top: 30px;
+    height: 30px;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+}
+
+/* fast information */
+
+
+.worn_title {
+    margin-top: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.last_info_card {
+    display: flex;
+    margin-top: 30px;
+}
+
+.last_info_theme {
+    width: 450px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #202020;
+}
+
+.last_info_group {
+    margin-left: 19px;
+
+}
+
+.last_info_text {
+    width: 512px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 12px;
+    color: #434343;
+}
+
+.last_info_team {
+    display: flex;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 10px;
+    color: #7688A4;
+}
+
+
+/* Main info part */
+.main_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_info_container {
+    width: 366px;
+    margin: 0 20px;
+}
+
+.main_info_part {
+    width: 386px;
+    height: 542px;
+    background: #F6F6F9;
+    border-radius: 5px;
+}
+
+.main_info_title {
+    margin-top: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #202020;
+}
+
+.main_info_text {
+    margin-top: 20px;
+    width: 347px;
+    height: 62px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #202020;
+
+}
+
+.main_info_time {
+    margin-top: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #7688A4;
+}
+
+.main_info_line {
+    margin-top: 15px;
+    border: 2px solid #E4E4E4;
+    width: 350px;
+
+}
+
+.main_info_img {
+    margin-top: 40px;
+}
+
+.main_part_btn {
+    width: 211px;
+    height: 42px;
+    background: #295093;
+    border-radius: 5px;
+    margin-left: 300px;
+    color: white;
+    border: 1px solid #295093;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+/* Download box */
+
+.download_box {
+    margin-top: 30px;
+    width: 1200px;
+    height: 214px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.box_title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    width: 526px;
+    height: 30px;
+    color: #295093;
+}
+
+.box_text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    width: 520px;
+    height: 44px;
+    color: #333333;
+}
+
+
+/* Footer */
+
+
+.footer_part {
+    width: 100%;
+    background: #295093;
+    height: 300px;
+    margin-top: 40px;
+    padding: 30px 0;
+
+}
+
+.footer_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_logo {
+    
+    width: 250px;
+    padding:10px;
+    background: #133C82;
+    border-radius: 5px;    
+}
+
+.footer_text{
+    font-family: 'Rubik';
+    margin-left: 40px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+
+.footer_btn {
+    border: 1px solid #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+
+    display: flex;
+    width: 170px;
+    background: #fff;
+    border-radius: 5px;
+    gap: 10px;
+}
+.footer_btn_text{
+    color: blue;
+}
+
+.footer_bi_telegram {
+    color: blue;
+}
+
+.footer_line{
+    border: 2px solid #133C82;
+    margin-top: 30px;
+}
+.footer_info_box{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+.footer_info{
+   
+    width: 350px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+.footer_info_text{
+    margin-top: 40px;
+}
+.footer_title{
+    color: #fff;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+.footer_list{
+    list-style: none;
+    margin-top: 33px;
+    line-height: 32px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+color: #FFFFFF;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* President contact */
+
+
+.president_words{
+    width: 794px;
+    height: 588px;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #000000;
+  
+  }
+  .president_text{
+      margin-top: 40px;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+  
+      color: #202020;
+  }
+  .president_sentense{
+      margin-top: 20px;
+  }
+  
+  .information_cards_box {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 170px;
+  }
+  .main_container_box {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .hashtag_lists{
+      list-style: none;
+      display: flex;
+      margin-top: 30px;
+  }
+  .hashtag_btn1{
+      color: #1E96C8;
+  
+  }
+  .hashtag_btn{
+  
+      color: #1E96C8;
+      margin-left: 20px;
+  
+  } 
+  .hashtag_line{
+      width: 788px;
+      border: 2px solid #EBEBEB;
+      margin-top: 20px;
+  }
+
+
+/* Last page */
+
+
+.main_title {
+    margin-top: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.textarea {
+    padding: 5px 10px;
+}
+
+.name_input {
+    padding: 0px 10px;
+}
+
+.input_box {
+    width: 600px;
+    line-height: 50px;
+    display: block;
+    justify-content: space-between;
+}
+
+.submit_btn {
+    padding: 10px 40px;
+    background: #295093;
+    border: 2px solid rgba(40, 81, 147, 0.54);
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.main_last_part{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_box{
+    width: 520px;
+    height: 280px;
+    margin-top: 69px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.contact_container{
+    margin: 0 auto;
+    width: 465px;
+    height: 240px;
+}
+.contact_img{
+    margin: 20px 180px;
+}
+.contact_list{
+  list-style: none;
+  line-height: 40px;
+  margin-top: 20px;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+
+
+color: #888888;
+}
+.contact_list_list{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #888888;
+}
+span{
+    margin-left: 70px;
+}
+.span_icon{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.contact_btn{
+    border: 1px solid #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 300px;
+    display: inline-block;
+    display: flex;
+    width: 150px;
+    background: blue;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.contact_bi_telegram{
+    background-color: #fff;
+}
+.contact_btn_text{
+    color: white;
+}
+
+.contact_tg{
+    margin-left: 100px;
+}
+.contact_google{
+    margin-left: 65px;
+}
